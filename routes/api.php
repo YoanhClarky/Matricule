@@ -18,5 +18,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/first','App\Http\Controllers\FrontOffice\MatriculeController@index');
+Route::get('/','App\Http\Controllers\FrontOffice\MatriculeController@index');
 Route::get('/show/{matricule}','App\Http\Controllers\FrontOffice\MatriculeController@show');
