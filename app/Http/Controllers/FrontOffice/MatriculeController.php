@@ -13,7 +13,6 @@ class MatriculeController extends Controller
         dd($comptes);
         return response()->json($comptes);
     }   
-
     public function show($matricule){
         $compte = Compte::where('matricule',$matricule)->firstOrfail();
         dd($compte);
