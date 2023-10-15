@@ -1,0 +1,4 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+user		NFI		nouveau fichier
+type_user		NFI		nouveau fichier
+image_ecole		NFI		nouveau fichier
